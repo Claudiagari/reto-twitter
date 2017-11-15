@@ -57,7 +57,7 @@ button{
     text-align: center;
 }
 button:focus{
-    outline:0px;
+    outline:10px;
 }
 textarea{
     border: none;
@@ -99,4 +99,9 @@ textarea:focus{
     font-size:28px;
     font-weight: 700;
 }
-
+.story{
+    background:white;
+    margin: 50px 20px;
+    padding:20px;
+    border-radius:5px;
+}
