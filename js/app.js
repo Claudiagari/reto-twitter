@@ -40,8 +40,8 @@ window.addEventListener('load', function() {
       btn.disabled = true;
     }
   });
-  textarea.addEventListener('keyup', function() {
-    if (keyCode = 13) {
+  textarea.addEventListener('keyup', function(event) {
+    if (event.keyCode = 13) {
       textarea.style.height = (textarea.scrollHeight) + 'px';
     } else if (textarea.value.length >= 171) {
       textarea.style.height = (textarea.scrollHeight) + 'px';
