@@ -45,9 +45,6 @@ window.addEventListener('load', function() {
       textarea.style.height = (textarea.scrollHeight) + 'px';
     } else if (textarea.value.length >= 171) {
       textarea.style.height = (textarea.scrollHeight) + 'px';
-    } else {
-      textarea.style = 'initial'; 
     }
   });
 });
-  

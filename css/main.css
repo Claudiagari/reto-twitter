@@ -45,33 +45,45 @@ h1{
 }
 button{
     display:inline-block;
-    background: #4AB3F4;
+    background:#4AB3F4;
     color:#fff;
     border: none;
     padding: 10px 20px;
     font-family: 'Inconsolata', monospace;
-    
+    font-weight:700;
+    font-size: 16px;
     margin: 5px;
     border-radius: 5px;
     width: 120px;
     text-align: center;
 }
-button:focus{
-    outline:10px;
+button:hover {
+    background-color:#006dbf;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active{
+    border-radius: 5px;
+    background-color:#006dbf;;
+}
+button:disabled,button[disabled]{
+  background-color: #4AB3F4;
+  color: #fff;
+  opacity: 0.3;
 }
 textarea{
     border: none;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #006dbf;
     font-size: 24px;
     width: 700px;
     height:100px ;
     margin:0px 0px;
     padding:5px;
-    line-height:20px;
-    display:block;
+    line-height:35px;
+    overflow:hidden;
     margin:0px auto;    
 }
-      
 textarea:focus{
 	outline:0px;
 }
@@ -82,7 +94,6 @@ textarea:focus{
     padding:20px;
     display:block;
     border-radius: 5px;
-    
 }
 #time{
     background: #fff;
@@ -104,4 +115,5 @@ textarea:focus{
     margin: 50px 20px;
     padding:20px;
     border-radius:5px;
+    font-size: 18px;
 }
