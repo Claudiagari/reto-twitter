@@ -1,3 +1,4 @@
+/*Dando estilos generales*/
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body{
 .capital-letter{
     text-transform: uppercase;
 }
+/*Titulo*/
 h1{
     text-align: center;
     color:#fff;
@@ -18,6 +20,7 @@ h1{
     height:60px;
     font-size:54px;
 }
+/* Primera parte de presentación*/
 .container{
     background: #fff;
     display: inline-block;
@@ -36,6 +39,7 @@ h1{
     padding-top: 15px;
     color: blue;
 }
+/*Formulario*/
 .news{
     display: inline-block;
     background: #fff;
@@ -87,22 +91,6 @@ textarea{
 textarea:focus{
 	outline:0px;
 }
-#story{
-    background: #fff;
-    font-family: 'Inconsolata', monospace;
-    margin: 50px 20px;
-    padding:20px;
-    display:block;
-    border-radius: 5px;
-}
-#time{
-    background: #fff;
-    font-family: 'Inconsolata', monospace;
-    margin: 50px 20px;
-    padding:20px;
-    display:none;
-    border-radius: 5px;
-}
 #number{
     width: 200px;
     height: 20px;
@@ -110,10 +98,12 @@ textarea:focus{
     font-size:28px;
     font-weight: 700;
 }
+/*Estilo para el nuevo div contenedor*/
 .story{
     background:white;
     margin: 50px 20px;
     padding:20px;
     border-radius:5px;
     font-size: 18px;
+    word-wrap: break-word
 }
